@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CAB46F48-9215-654A-40C9-D31B56FB8439" name="Vendedor">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-05-05 23:22:12 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="AC9E3102-3B37-E686-9F99-2D85CF91F00C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matricula" id="EC104941-D1A2-4162-3294-82168AD9BB89">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-05-05 23:37:31 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="AC9E3102-3B37-E686-9F99-2D85CF91F00C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18 CHAR</dataTypeSize>
+<ownDataTypeParameters>18 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="586762AC-6834-23BD-D700-E99C9F6EAF21">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-05-05 23:45:16 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="AC9E3102-3B37-E686-9F99-2D85CF91F00C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40D7DBA7-2996-BBBD-527B-1421EDC0B2D8" name="Vendedor PK">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-05-06 00:40:16 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="AC9E3102-3B37-E686-9F99-2D85CF91F00C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC104941-D1A2-4162-3294-82168AD9BB89</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
