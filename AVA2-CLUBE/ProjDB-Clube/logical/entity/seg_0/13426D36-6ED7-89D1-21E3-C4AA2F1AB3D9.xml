@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13426D36-6ED7-89D1-21E3-C4AA2F1AB3D9" name="Mensalidade">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-05-20 00:35:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="99D2E46C-6A23-AF3E-FAE7-C7C564B8BDA3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idMensalidade" id="E4C80CA4-66AA-B96B-83AA-2B4A7E5E984E">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-05-20 00:36:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="99D2E46C-6A23-AF3E-FAE7-C7C564B8BDA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfAssociado" id="98097FAA-F82F-3F6F-B698-5611DA6475EA">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-05-20 00:37:13 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="99D2E46C-6A23-AF3E-FAE7-C7C564B8BDA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="97B100D0-3F28-FD2B-C85D-AAB15B05BAD9">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-05-20 00:37:57 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="99D2E46C-6A23-AF3E-FAE7-C7C564B8BDA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataVencimento" id="1EF94D7D-C0E7-CCC8-EABB-1532763A0B62">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-05-20 00:38:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="99D2E46C-6A23-AF3E-FAE7-C7C564B8BDA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataPagamento" id="722B076F-1A21-73DA-6075-2FC204A0F50F">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-05-20 00:39:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="99D2E46C-6A23-AF3E-FAE7-C7C564B8BDA3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idMensalidade1" id="BB63AB38-96BA-1914-0496-8BD4365D9D7C">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-05-20 00:40:19 UTC</createdTime>
+<generatorID>739A9926-6F8A-A08B-51BD-FBDAFEF4F289</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="99D2E46C-6A23-AF3E-FAE7-C7C564B8BDA3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E4C80CA4-66AA-B96B-83AA-2B4A7E5E984E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfAssociado1" id="67D2F2D0-5431-B061-8821-8EF1ABF08E9D">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-05-20 00:40:19 UTC</createdTime>
+<generatorID>739A9926-6F8A-A08B-51BD-FBDAFEF4F289</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="99D2E46C-6A23-AF3E-FAE7-C7C564B8BDA3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>98097FAA-F82F-3F6F-B698-5611DA6475EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfAssoaciado" id="46158C96-4950-7C5E-146D-E49BB5D46F1E">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-05-20 00:40:46 UTC</createdTime>
+<generatorID>4F95C75C-5668-2AB6-A043-DED3B45DD95E</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="99D2E46C-6A23-AF3E-FAE7-C7C564B8BDA3" value="true"/>
+</engineerTo>
+<referedAttribute>2C759B0C-4373-70EE-C1E1-A6C5F78DF3F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7C019DC9-5CF0-CA18-1E2F-BB5FB84A3664" name="Mensalidade PK">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-05-20 00:37:12 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="99D2E46C-6A23-AF3E-FAE7-C7C564B8BDA3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4C80CA4-66AA-B96B-83AA-2B4A7E5E984E</attributeRef>
+<attributeRef>98097FAA-F82F-3F6F-B698-5611DA6475EA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
