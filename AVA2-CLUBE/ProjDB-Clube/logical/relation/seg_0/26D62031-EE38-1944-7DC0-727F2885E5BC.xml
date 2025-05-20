@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="titularTelefone" directorySegmentName="seg_0" id="26D62031-EE38-1944-7DC0-727F2885E5BC">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-05-20 00:42:24 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="99D2E46C-6A23-AF3E-FAE7-C7C564B8BDA3" value="true"/>
+</engineerTo>
+<sourcePk>FAD487D2-78A0-A5C0-0F72-29BE43210435</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0F11F981-97C6-0C3C-7C15-CC52455851E6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0A478FF3-0A76-D014-9EF7-2C29741D0AE3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
