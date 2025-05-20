@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F948161-B2BE-BBF3-CF17-D8869C6C9C6D" name="Imchistorico">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-04-08 00:31:18 UTC</createdTime>
+<ownerDesignName>“ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="3AA044B7-255B-346B-BC08-A7F20B0240E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pesoMedicao" id="016E969D-DEE6-877F-6D39-62EC7E11E6B3">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-04-08 00:32:27 UTC</createdTime>
+<ownerDesignName>“ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="3AA044B7-255B-346B-BC08-A7F20B0240E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alturaMedicao" id="BEC8F456-F535-3760-3F6B-202EB3BA520C">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-04-08 00:39:16 UTC</createdTime>
+<ownerDesignName>“ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="3AA044B7-255B-346B-BC08-A7F20B0240E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataMedicao" id="B35F8743-E1CB-8BFC-2BBA-2725E6808048">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-04-08 00:40:34 UTC</createdTime>
+<ownerDesignName>“ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="3AA044B7-255B-346B-BC08-A7F20B0240E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

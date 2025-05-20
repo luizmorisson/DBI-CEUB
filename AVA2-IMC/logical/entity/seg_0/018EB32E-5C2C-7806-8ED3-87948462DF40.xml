@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="018EB32E-5C2C-7806-8ED3-87948462DF40" name="Pessoa">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-04-07 23:45:03 UTC</createdTime>
+<ownerDesignName>“ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="3AA044B7-255B-346B-BC08-A7F20B0240E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomePessoa" id="88DE0586-6691-1144-9EA4-3B837ED4BCA7">
+<createdBy>luiz.morisson</createdBy>
+<createdTime>2025-04-07 23:46:42 UTC</createdTime>
+<ownerDesignName>“ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="3AA044B7-255B-346B-BC08-A7F20B0240E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
